@@ -42,71 +42,42 @@ list-style-type: none;
   text-decoration: none;
 }
 
-/* Main */
+/* main */
 
-.hero {
-  background-color: #2f303a;
-}
-
-h1 {
-  font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-letter-spacing: 0.06em;
-color: #ffffff;
+.buttons {
+  list-style-type: none;
 }
 
 button {
-  font-weight: 700;
+  font-weight: 500;
 font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.06em;
-background-color: #2196f3;
-color: #ffffff;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: #212121;
+background-color: #f5f4fa;
 cursor: pointer;
 }
 
 button:hover, button:focus {
-  color: #150eea;
-}
-
-li {
-  list-style-type: none;
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 .title {
-  font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
+  list-style-type: none;
 }
 
-.title-text {
-  font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #757575;
+h2 { 
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
 }
 
-.description {
-  font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-}
-
-.name {
-  font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-}
-
-.job-title {
+p {
   font-weight: 400;
 font-size: 16px;
-line-height: 1.19;
+line-height: 1.87px;
 letter-spacing: 0.03em;
 color: #757575;
 }
