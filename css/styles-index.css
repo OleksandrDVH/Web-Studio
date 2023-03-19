@@ -1,7 +1,16 @@
+h2, h3, p {
+  margin: 0;
+}
+
 body {
   background-color: #ffffff;
-  font-family: 'Roboto';
+  font-family: 'Roboto' sans-serif;
   color: #212121;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 /* Header */
@@ -24,36 +33,61 @@ a:hover, a:focus {
   color: #2196f3;
 }
 
-.site-nav, .feedback {
+.site-nav {
   font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 list-style-type: none;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 93px;
+}
+
+.feedback {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 196px;
+  margin-right: 0;
 }
 
 .link-nav {
   color: #212121;
   text-decoration: none;
+  margin-right: 50px;
 }
 
 .feedback-link {
   color: #757575;
   text-decoration: none;
+  margin-right: 50px;
 }
 
 /* Main */
 
 .hero {
   background-color: #2f303a;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 280px;
 }
 
-h1 {
+.hero-name {
   font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
 color: #ffffff;
+padding-top: 200px;
+margin: 0;
+
 }
 
 button {
@@ -64,6 +98,7 @@ letter-spacing: 0.06em;
 background-color: #2196f3;
 color: #ffffff;
 cursor: pointer;
+margin-top: 30px;
 }
 
 button:hover, button:focus {
@@ -72,6 +107,10 @@ button:hover, button:focus {
 
 li {
   list-style-type: none;
+}
+
+.section {
+  margin-top: 94px;
 }
 
 .title {
@@ -87,6 +126,8 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
+padding-top: 10px;
+padding-right: 30px;
 }
 
 .description {
@@ -94,6 +135,12 @@ color: #757575;
 font-size: 36px;
 line-height: 1.17;
 letter-spacing: 0.03em;
+text-align: center;
+padding-bottom: 50px;
+}
+
+.description-img {
+  padding-right: 30px;
 }
 
 .name {
@@ -101,6 +148,7 @@ letter-spacing: 0.03em;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
+padding-top: 30px;
 }
 
 .job-title {
@@ -109,6 +157,7 @@ font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: #757575;
+padding-top: 10px;
 }
 
 /* Footer */
@@ -120,6 +169,8 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: #ffffff;
 background-color: #2f303a;
+margin-top: 94px;
+padding-bottom: 60px;
 }
 
 .adress-logo {
@@ -130,9 +181,52 @@ background-color: #2f303a;
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
+  display: block;
+  padding-top: 60px;
 }
 
 .adress-link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+
+/* Flexbox */
+
+.site-nav {
+  display: flex;
+}
+
+.feedback {
+  display: flex;
+}
+
+.main-nav {
+ display: flex;
+ align-items: center;
+ margin: 32px 0 32px 0;
+}
+
+.title-block {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.description-block {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  padding-bottom: 94px;
+}
+
+.description-team {
+  margin 0;
+  display: flex;
+  padding: 0;
+}
+
+.adress-flex {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
 }
