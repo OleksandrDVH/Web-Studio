@@ -4,7 +4,7 @@ h2, h3, p {
 
 body {
   background-color: #ffffff;
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #212121;
 }
 
@@ -34,6 +34,7 @@ a:hover, a:focus {
 }
 
 .site-nav {
+  display: flex;
   font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -45,6 +46,7 @@ margin-left: 93px;
 }
 
 .feedback {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -52,21 +54,21 @@ margin-left: 93px;
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 196px;
-  margin-right: 0;
+  margin-left: auto;
 }
 
 .link-nav {
   color: #212121;
   text-decoration: none;
-  margin-right: 50px;
+  padding-right: 50px;
 }
 
 .feedback-link {
   color: #757575;
   text-decoration: none;
-  margin-right: 50px;
+  padding-right: 50px;
 }
+
 
 /* Main */
 
@@ -99,10 +101,14 @@ background-color: #2196f3;
 color: #ffffff;
 cursor: pointer;
 margin-top: 30px;
+border-radius: 4px;
+border: 1px solid transparent;
+padding: 10px 32px 10px 32px;
 }
 
 button:hover, button:focus {
-  color: #150eea;
+  color: #2196f3;
+  background-color: #ffffff;
 }
 
 li {
@@ -111,6 +117,11 @@ li {
 
 .section {
   margin-top: 94px;
+}
+
+.section-team {
+  background-color: #f5f4fa;
+  padding-bottom: 94px;
 }
 
 .title {
@@ -127,8 +138,14 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
 padding-top: 10px;
-padding-right: 30px;
+
 }
+
+.title-text-item {
+  margin-right: 30px;
+}
+
+
 
 .description {
   font-weight: 700;
@@ -140,7 +157,8 @@ padding-bottom: 50px;
 }
 
 .description-img {
-  padding-right: 30px;
+  padding: 0px;
+  margin-right: 30px;
 }
 
 .name {
@@ -169,7 +187,6 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: #ffffff;
 background-color: #2f303a;
-margin-top: 94px;
 padding-bottom: 60px;
 }
 
@@ -188,41 +205,39 @@ padding-bottom: 60px;
 .adress-link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  padding-top: 9px;
 }
 
 /* Flexbox */
 
-.site-nav {
-  display: flex;
-}
-
-.feedback {
-  display: flex;
-}
-
 .main-nav {
- display: flex;
- align-items: center;
- margin: 32px 0 32px 0;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 32px 0px;
 }
 
 .title-block {
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .description-block {
   display: flex;
   margin: 0;
-  justify-content: center;
+  justify-content: space-between;
   padding-bottom: 94px;
+  padding-left: 0px;
 }
 
 .description-team {
-  margin 0;
+  margin: 0px;
+padding:0px;
   display: flex;
-  padding: 0;
+  justify-content: space-between;
+  
 }
 
 .adress-flex {
