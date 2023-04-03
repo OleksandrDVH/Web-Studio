@@ -8,6 +8,10 @@ h2, p {
   margin: 0px;
 }
 
+html {
+  max-width: 1600px;
+}
+
 .container {
   width: 1200px;
   min-width: 1200px;
@@ -23,13 +27,22 @@ a:hover, a:focus {
   color: #2196f3;
 }
 
+.logo:hover{
+  color: #000000; 
+}
+
+.adress-logo:hover{
+  color: #ffffff;
+}
+
 
 .header-wraper {
   display: flex;
   justify-content: center;
   align-content: center;
   height: 80px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  min-width: 1200px;
 }
 
 .header-container{
@@ -100,7 +113,12 @@ a:hover, a:focus {
   color: #757575;
   fill: #757575;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+}
 
+.feedback-svg {
+  margin-right: 10px;
 }
 
 
@@ -114,7 +132,7 @@ ul {
 
 .buttons {
   display: flex;
-  margin: 0px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 
@@ -148,15 +166,17 @@ button:hover, button:focus {
   padding-bottom: 94px;
 }
 
+img {
+  margin-bottom: 20px;
+}
 
 .name { 
 font-weight: 700;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
-padding-top: 20px;
-padding-bottom: 4px;
-padding-left: 24px;
+margin-bottom: 4px;
+margin-left: 24px;
 }
 
 .discription {
@@ -166,14 +186,19 @@ line-height: 1.87px;
 letter-spacing: 0.03em;
 color: #757575;
 display: inline-block;
-padding-bottom: 20px;
-padding-left: 24px;
+margin-left: 24px;
 }
 
 .icon-discription {
   box-sizing: border-box;
   margin-bottom: 30px;
   border: 1px solid #EEEEEE;
+  width: 370px;
+  height: 404px;
+}
+
+.icon-discription:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .last {
@@ -181,7 +206,6 @@ margin-bottom: 0px;
 }
 
 .icon-list {
-  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -192,13 +216,14 @@ margin-bottom: 0px;
 /* Footer */
 
 .adress {
-font-weight: 400;
+  font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #ffffff;
 background-color: #2f303a;
 padding-bottom: 60px;
+min-width: 1200px;
 }
 
 .adress-logo {
@@ -219,18 +244,20 @@ padding-bottom: 60px;
   margin-top: 9px;
 }
 
+
 .adress-flex {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
 }
 
+
 .flex-footer{
   display: flex;
 }
 
 .contact-links {
-  padding-top: 72px;
+  padding-top: 75px;
   padding-left: 70px;
   margin: 0;
   
@@ -241,7 +268,7 @@ padding-bottom: 60px;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
-margin-bottom: 20px;
+margin:0 0 20px 0;
 }
 
 .social-icon-footer {
@@ -270,5 +297,5 @@ margin-bottom: 20px;
 
 .icon-footer:hover {
   background-color: #2196f3;
-  fill: #ffffff;
+  fill: #ffffff
 }
