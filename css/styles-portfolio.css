@@ -45,7 +45,7 @@ a:hover, a:focus {
 
 .header-container{
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   margin: 32px auto;
 }
@@ -65,35 +65,51 @@ a:hover, a:focus {
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
+  margin-right: 93px;
 }
 
 .logo-child {
   color: #2196f3;
 }
 
-.site-nav, .link-nav {
+ .link-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 .site-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  margin: 0 305px 0 0;
+  padding: 0;
+}
+
+.site-nav-feedback {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
  .site-nav-link {
   margin-right: 50px;
 }
 
+
 .site-nav .site-nav-link:last-child {
   margin-right: 0px;
+}
+
+.site-nav-link-feedback {
+  margin-right: 30px;
+}
+
+.site-nav-link-feedback:last-child {
+  margin: 0;
 }
 
 
