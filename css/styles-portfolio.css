@@ -5,7 +5,7 @@ body {
 }
 
 h2, p {
-  margin: 0px;
+  margin: 0;
 }
 
 
@@ -40,6 +40,7 @@ a:hover, a:focus {
   height: 80px;
   border-bottom: 1px solid #ececec;
   min-width: 1200px;
+  max-width: 1600px;
 }
 
 .header-container{
@@ -163,27 +164,20 @@ button:hover, button:focus {
   padding-bottom: 94px;
 }
 
-img {
-  margin-bottom: 20px;
-}
-
 .name { 
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
-margin-bottom: 4px;
-margin-left: 24px;
 }
 
 .discription {
 font-weight: 400;
 font-size: 16px;
-line-height: 1.87px;
+line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
 display: inline-block;
-margin-left: 24px;
 }
 
 .icon-discription {
@@ -200,6 +194,10 @@ margin-left: 24px;
 
 .last {
 margin-bottom: 0px;
+}
+
+.discription-block {
+  padding: 20px 24px;
 }
 
 .icon-list {
@@ -221,6 +219,7 @@ color: #ffffff;
 background-color: #2f303a;
 padding-bottom: 60px;
 min-width: 1200px;
+max-width: 1600px;
 }
 
 .adress-logo {
