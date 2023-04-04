@@ -41,6 +41,7 @@ a:hover, a:focus {
   border-bottom: 1px solid #ececec;
   min-width: 1200px;
   max-width: 1600px;
+  margin: 0 auto;
 }
 
 .header-container{
@@ -236,6 +237,7 @@ background-color: #2f303a;
 padding-bottom: 60px;
 min-width: 1200px;
 max-width: 1600px;
+margin: 0 auto;
 }
 
 .adress-logo {

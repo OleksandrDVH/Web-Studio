@@ -42,6 +42,7 @@ a:hover, a:focus {
   border-bottom: 1px solid #ececec;
   min-width: 1200px;
   max-width: 1600px;
+  margin: 0 auto;
 }
 
 .header-container{
@@ -155,6 +156,7 @@ a:hover, a:focus {
   margin-bottom: 94px;
   min-width: 1200px;
   max-width: 1600px;
+  margin: 0 auto 94px ;
 }
 
 .hero-name {
@@ -304,6 +306,7 @@ height: 428px;
   padding-top: 94px;
   min-width: 1200px;
   max-width: 1600px;
+  margin: 0 auto;
 }
 
 .team-img {
@@ -398,6 +401,7 @@ background-color: #2f303a;
 padding-bottom: 60px;
 min-width: 1200px;
 max-width: 1600px;
+margin: 0 auto;
 }
 
 .adress-logo {
