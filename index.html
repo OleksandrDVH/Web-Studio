@@ -23,7 +23,7 @@
         <nav class="main-nav">
           <ul class="site-nav">
             <li class="site-nav-link">
-              <a href="./index.html" class="link-nav">Студия</a>
+              <a href="./index.html" class="link-nav line">Студия</a>
             </li>
             <li class="site-nav-link">
               <a href="./portfolio.html" class="link-nav">Портфолио</a>
@@ -57,7 +57,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-name">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-          <button type="button">Заказать услугу</button>
+          <button type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <div class="icons-list container">
@@ -121,28 +121,35 @@
           <h2 class="description">Чем мы занимаемся</h2>
           <ul class="description-block">
             <li class="description-img">
-              <img
+              <div class="text-block"><img
                 src="./images/computer-work.jpg"
                 width="370"
                 height="294"
                 alt="computer work"
               />
+              <p class="text-description">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
+            </div>
             </li>
-            <li class="description-img">
-              <img
-                src="./images/work-laptop.jpg"
-                width="370"
-                height="294"
-                alt="work on laptop"
-              />
-            </li>
+            <div class="text-block">
+              <li class="description-img">
+                <img
+                  src="./images/work-laptop.jpg"
+                  width="370"
+                  height="294"
+                  alt="work on laptop"
+                />
+                <p class="text-description">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
+              </li>
+            </div>
             <li>
-              <img
+              <div class="text-block"><img
                 src="./images/work-tablet.jpg"
                 width="370"
                 height="294"
                 alt="work on tablet"
               />
+              <p class="text-description">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
+            </div>
             </li>
           </ul>
         </div>
@@ -493,5 +500,15 @@
         </ul>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close" data-modal-close>
+          <svg class="icon-close-svg" width="30" height="30">
+            <use class="icon-close" href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./modal.js"></script>
   </body>
 </html>
