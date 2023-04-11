@@ -234,6 +234,8 @@ margin-bottom: 0px;
 .card-img {
   position: relative;
   overflow: hidden;
+  width: 370px;
+  height: 294px;
 }
 
 
